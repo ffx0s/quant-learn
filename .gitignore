@@ -1,3 +1,4 @@
 .vscode
 _Dockerfile
 strategy
+release.sh

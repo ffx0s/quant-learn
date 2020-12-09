@@ -7,6 +7,7 @@ COPY .condarc /home/anaconda
 RUN conda install --yes --freeze-installed \
         numpy \
         pandas \
+        apscheduler \
         nomkl \
     && conda clean -afy \
     && find /opt/conda/ -follow -type f -name '*.a' -delete \
